@@ -17,7 +17,7 @@ def cesars_cypher(message,num,alphabet=list(string.ascii_letters)):
     num = int(input('Enter num: '))
     if num > 26:
         print('Num out of range!')
-        num = int(input('Enter num: '))
+        num = int(input('Enter num: '))#changed
     for i in range(0,len(word)):
         for j in range(0, len(alphabet)):
             if len(code_word) == len(word):
